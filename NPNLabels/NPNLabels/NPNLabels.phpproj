@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>NPNLabels</Name>
+    <ProjectGuid>8791ec15-c94e-4d46-afaa-058f9ba3d12e</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>NPNLabels</AssemblyName>
+    <SpecificPageValue>index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="code39.php" />
+    <Compile Include="font\courier.php" />
+    <Compile Include="font\courierb.php" />
+    <Compile Include="font\courierbi.php" />
+    <Compile Include="font\courieri.php" />
+    <Compile Include="font\helvetica.php" />
+    <Compile Include="font\helveticab.php" />
+    <Compile Include="font\helveticabi.php" />
+    <Compile Include="font\helveticai.php" />
+    <Compile Include="font\symbol.php" />
+    <Compile Include="font\times.php" />
+    <Compile Include="font\timesb.php" />
+    <Compile Include="font\timesbi.php" />
+    <Compile Include="font\timesi.php" />
+    <Compile Include="font\zapfdingbats.php" />
+    <Compile Include="fpdf.php" />
+    <Compile Include="index.php" />
+    <Compile Include="makefont\makefont.php" />
+    <Compile Include="makefont\ttfparser.php" />
+    <Compile Include="process_form.php" />
+    <Compile Include="tutorial\calligra.php" />
+    <Compile Include="tutorial\makefont.php" />
+    <Compile Include="tutorial\tuto1.php" />
+    <Compile Include="tutorial\tuto2.php" />
+    <Compile Include="tutorial\tuto3.php" />
+    <Compile Include="tutorial\tuto4.php" />
+    <Compile Include="tutorial\tuto5.php" />
+    <Compile Include="tutorial\tuto6.php" />
+    <Compile Include="tutorial\tuto7.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\view.css" />
+    <Content Include="doc\acceptpagebreak.htm" />
+    <Content Include="doc\addfont.htm" />
+    <Content Include="doc\addlink.htm" />
+    <Content Include="doc\addpage.htm" />
+    <Content Include="doc\aliasnbpages.htm" />
+    <Content Include="doc\cell.htm" />
+    <Content Include="doc\close.htm" />
+    <Content Include="doc\error.htm" />
+    <Content Include="doc\footer.htm" />
+    <Content Include="doc\form.html" />
+    <Content Include="doc\fpdf.htm" />
+    <Content Include="doc\getpageheight.htm" />
+    <Content Include="doc\getpagewidth.htm" />
+    <Content Include="doc\getstringwidth.htm" />
+    <Content Include="doc\getx.htm" />
+    <Content Include="doc\gety.htm" />
+    <Content Include="doc\header.htm" />
+    <Content Include="doc\image.htm" />
+    <Content Include="doc\index.htm" />
+    <Content Include="doc\line.htm" />
+    <Content Include="doc\link.htm" />
+    <Content Include="doc\ln.htm" />
+    <Content Include="doc\multicell.htm" />
+    <Content Include="doc\output.htm" />
+    <Content Include="doc\pageno.htm" />
+    <Content Include="doc\rect.htm" />
+    <Content Include="doc\setauthor.htm" />
+    <Content Include="doc\setautopagebreak.htm" />
+    <Content Include="doc\setcompression.htm" />
+    <Content Include="doc\setcreator.htm" />
+    <Content Include="doc\setdisplaymode.htm" />
+    <Content Include="doc\setdrawcolor.htm" />
+    <Content Include="doc\setfillcolor.htm" />
+    <Content Include="doc\setfont.htm" />
+    <Content Include="doc\setfontsize.htm" />
+    <Content Include="doc\setkeywords.htm" />
+    <Content Include="doc\setleftmargin.htm" />
+    <Content Include="doc\setlinewidth.htm" />
+    <Content Include="doc\setlink.htm" />
+    <Content Include="doc\setmargins.htm" />
+    <Content Include="doc\setrightmargin.htm" />
+    <Content Include="doc\setsubject.htm" />
+    <Content Include="doc\settextcolor.htm" />
+    <Content Include="doc\settitle.htm" />
+    <Content Include="doc\settopmargin.htm" />
+    <Content Include="doc\setx.htm" />
+    <Content Include="doc\setxy.htm" />
+    <Content Include="doc\sety.htm" />
+    <Content Include="doc\text.htm" />
+    <Content Include="doc\write.htm" />
+    <Content Include="doc\__construct.htm" />
+    <Content Include="fpdf.css" />
+    <Content Include="images\bottom.png" />
+    <Content Include="ingaveform.html" />
+    <Content Include="images\top.png" />
+    <Content Include="makefont\cp1250.map" />
+    <Content Include="makefont\cp1251.map" />
+    <Content Include="makefont\cp1252.map" />
+    <Content Include="makefont\cp1253.map" />
+    <Content Include="makefont\cp1254.map" />
+    <Content Include="makefont\cp1255.map" />
+    <Content Include="makefont\cp1257.map" />
+    <Content Include="makefont\cp1258.map" />
+    <Content Include="makefont\cp874.map" />
+    <Content Include="makefont\iso-8859-1.map" />
+    <Content Include="makefont\iso-8859-11.map" />
+    <Content Include="makefont\iso-8859-15.map" />
+    <Content Include="makefont\iso-8859-16.map" />
+    <Content Include="makefont\iso-8859-2.map" />
+    <Content Include="makefont\iso-8859-4.map" />
+    <Content Include="makefont\iso-8859-5.map" />
+    <Content Include="makefont\iso-8859-7.map" />
+    <Content Include="makefont\iso-8859-9.map" />
+    <Content Include="makefont\koi8-r.map" />
+    <Content Include="makefont\koi8-u.map" />
+    <Content Include="tutorial\20k_c1.txt" />
+    <Content Include="tutorial\20k_c2.txt" />
+    <Content Include="tutorial\calligra.ttf" />
+    <Content Include="tutorial\calligra.z" />
+    <Content Include="tutorial\countries.txt" />
+    <Content Include="tutorial\index.htm" />
+    <Content Include="tutorial\logo.png" />
+    <Content Include="tutorial\tuto1.htm" />
+    <Content Include="tutorial\tuto2.htm" />
+    <Content Include="tutorial\tuto3.htm" />
+    <Content Include="tutorial\tuto4.htm" />
+    <Content Include="tutorial\tuto5.htm" />
+    <Content Include="tutorial\tuto6.htm" />
+    <Content Include="tutorial\tuto7.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="doc\" />
+    <Folder Include="font\" />
+    <Folder Include="images\" />
+    <Folder Include="css\" />
+    <Folder Include="makefont\" />
+    <Folder Include="tutorial\" />
+  </ItemGroup>
+</Project>
