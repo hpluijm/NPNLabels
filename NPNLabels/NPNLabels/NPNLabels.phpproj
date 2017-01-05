@@ -50,6 +50,7 @@
     <Compile Include="tutorial\tuto7.php" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blank.gif" />
     <Content Include="css\view.css" />
     <Content Include="doc\acceptpagebreak.htm" />
     <Content Include="doc\addfont.htm" />
@@ -103,6 +104,7 @@
     <Content Include="doc\write.htm" />
     <Content Include="doc\__construct.htm" />
     <Content Include="fpdf.css" />
+    <Content Include="iepngfix.htc" />
     <Content Include="images\bottom.png" />
     <Content Include="ingaveform.html" />
     <Content Include="images\top.png" />
@@ -126,6 +128,7 @@
     <Content Include="makefont\iso-8859-9.map" />
     <Content Include="makefont\koi8-r.map" />
     <Content Include="makefont\koi8-u.map" />
+    <Content Include="shadow.gif" />
     <Content Include="tutorial\20k_c1.txt" />
     <Content Include="tutorial\20k_c2.txt" />
     <Content Include="tutorial\calligra.ttf" />
@@ -140,6 +143,7 @@
     <Content Include="tutorial\tuto5.htm" />
     <Content Include="tutorial\tuto6.htm" />
     <Content Include="tutorial\tuto7.htm" />
+    <Content Include="view.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="doc\" />
